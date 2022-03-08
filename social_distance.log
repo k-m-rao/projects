@@ -1,0 +1,14 @@
+2022-03-08 23:07:56,547 - <module> - 16 - INFO - !!!Logging Started!!!
+2022-03-08 23:07:56,547 - <module> - 21 - INFO - Inside Driver code
+2022-03-08 23:07:56,548 - argument_parsing - 33 - INFO - Arguments are: {'input': 'input_files/walk2.mp4', 'output': 'my_output.avi', 'display': 1}
+2022-03-08 23:07:56,548 - model - 43 - INFO - LabelsPath = yolo-coco/coco.names
+2022-03-08 23:07:56,549 - model - 45 - INFO - LABELS = ['person', 'bicycle', 'car', 'motorbike', 'aeroplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'sofa', 'pottedplant', 'bed', 'diningtable', 'toilet', 'tvmonitor', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+2022-03-08 23:07:56,549 - model - 46 - INFO - Loaded the COCO class labels on which YOLO model was trained on
+2022-03-08 23:07:56,549 - model - 50 - INFO - weightsPath==>yolo-coco/yolov3.weights
+2022-03-08 23:07:56,549 - model - 51 - INFO - configPath==>yolo-coco/yolov3.cfg
+2022-03-08 23:07:56,549 - model - 53 - INFO - Loading YOLO from disk...
+2022-03-08 23:07:56,880 - <module> - 79 - INFO - calling function :  access_frame(args)
+2022-03-08 23:07:56,902 - access_frame - 70 - INFO - initialize the video stream and pointer to output video file
+2022-03-08 23:07:56,902 - access_frame - 73 - INFO - Total frames in video==>584
+2022-03-08 23:07:56,902 - <module> - 184 - INFO - calling function : distance_checker()
+2022-03-08 23:07:56,903 - distance_checker - 160 - INFO - Displaying social distance detection result..!!!
